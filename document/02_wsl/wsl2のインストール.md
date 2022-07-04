@@ -1,5 +1,7 @@
 # 情報
-* https://www.kagoya.jp/howto/cloud/container/wsl2_docker/
+* Windows＋WSL2でDocker環境を用意しよう
+    * https://www.kagoya.jp/howto/cloud/container/wsl2_docker/
+
 
 # インストール手順
 * wsl2の適用 インストール手順
@@ -11,3 +13,6 @@
         * Windows 10では動作しない。
     * windows terminalのインストール
         * wslを使ってLinux GUIは起動しない。
+
+# 注意
+* Windows版dockerをインストールした場合、WindowsでDocker Desktopを起動しないと、wslでdockerコマンドを使えない。
