@@ -1,7 +1,11 @@
 # 情報
 * Windows＋WSL2でDocker環境を用意しよう
     * https://www.kagoya.jp/howto/cloud/container/wsl2_docker/
-
+* !!!重要!!!
+    * docker0のブリッジネットワークがWindows版をインストールするとwslに作成されない。
+    * 以下のサイトでdockerをインストールする。
+        * https://www.softek.co.jp/SID/support/sidfmvm/guide/install-docker-ubuntu1804.html
+            * systemctlコマンドが使用できず、インストールできない。
 
 # インストール手順
 * wsl2の適用 インストール手順
