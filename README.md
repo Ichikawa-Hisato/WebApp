@@ -45,7 +45,8 @@
 
 5. dockerのインストール
     * 以下のサイトに沿ってインストールを行う。
-        * https://www.softek.co.jp/SID/support/sidfmvm/guide/install-docker-ubuntu1804.html
+        * http://docs.docker.jp/v1.11/linux/index.html
+            * 『導入ガイドの PDF 版』から導入ガイドをPDFをダウンロード。
     * sudoなしでdockerコマンドを実行できるように設定する。
         ```
         # (もし無ければ)dockerグループを作る
