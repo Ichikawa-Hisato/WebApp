@@ -13,7 +13,7 @@ int main(int argc, char *argv[])
     std::cout << "Start Receive Massage" << std::endl;
 
     //アドレスの生成
-    struct sockaddr_in addr; //接続先の情報用の構造体(ipv4)
+    struct sockaddr_in addr; //接続待ちの情報用の構造体(ipv4)
     memset(&addr, 0, sizeof(struct sockaddr_in)); //memsetで初期化
     addr.sin_family = AF_INET; //アドレスファミリ(ipv4)
     addr.sin_port = htons(12345); //ポート番号,htons()関数は16bitホストバイトオーダーをネットワークバイトオーダーに変換
