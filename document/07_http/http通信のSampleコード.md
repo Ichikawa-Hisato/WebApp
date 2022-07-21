@@ -1,9 +1,11 @@
 * httpサーバの作成
     * 以下のサイトを参考
-    * http://research.nii.ac.jp/~ichiro/syspro98/wwwserver.html
+    * https://dasuko.hatenadiary.jp/entry/cpp_http-server
 * httpクライアントの作成
     * 以下のサイトを参考
-    * https://kagasu.hatenablog.com/entry/2017/10/07/190551
+    * https://www.geekpage.jp/programming/linux-network/http-client.php
+        * C言語ベース
+        * https://daeudaeu.com/c-http-client/#i-7
 
 ---
 # 備考
