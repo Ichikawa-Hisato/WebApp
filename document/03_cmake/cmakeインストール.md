@@ -19,4 +19,7 @@ tar xvf cmake-3.6.2.tar.gz
 ```
 
 # CMakeLists.txの参考
-* https://qiita.com/shohirose/items/45fb49c6b429e8b204ac
+* 基本的な使い方
+    * https://qiita.com/shohirose/items/45fb49c6b429e8b204ac
+* libraryのリンク方法
+    * https://theolizer.com/cpp-school3/cpp-school3-4/
